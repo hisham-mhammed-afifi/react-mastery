@@ -1,0 +1,14 @@
+[
+  "00.table-of-content.md",
+  "part1-ch01-execution-context.md",
+  "part1-ch02-scope.md",
+  "part1-ch03-closures.md",
+  "part1-ch04-this-keyword.md",
+  "part1-ch05-prototypes.md",
+  "part1-ch06-event-loop.md",
+  "part1-ch07-immutability.md",
+  "part1-ch08-higher-order-functions.md",
+  "part1-ch09-modern-js.md",
+  "part1-ch10-design-patterns.md",
+  "part1-ch11-problem-solving-lab.md"
+]
