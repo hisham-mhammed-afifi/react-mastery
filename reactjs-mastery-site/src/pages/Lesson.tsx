@@ -1,7 +1,8 @@
 import { useParams, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { useLessonContent } from "../hooks/useLessonContent";
 import { useLessons } from "../hooks/useLessons";
+import { useSEO } from "../hooks/useSEO";
 import MarkdownRenderer from "../components/MarkdownRenderer";
 import ThemeToggle from "../components/ThemeToggle";
 
@@ -18,12 +19,29 @@ export default function Lesson() {
 
   const title = content.match(/^#\s+(.+)$/m)?.[1] ?? slug ?? "Lesson";
 
+  const description = useMemo(() => {
+    if (!content) return undefined;
+    const start = content.indexOf("\n", content.indexOf("# "));
+    return content
+      .slice(start)
+      .replace(/[#*>`\-\[\]|_]/g, "")
+      .replace(/\n+/g, " ")
+      .trim()
+      .slice(0, 155);
+  }, [content]);
+
+  useSEO({
+    title,
+    description,
+    path: `/lesson/${slug}`,
+    type: "article",
+  });
+
   useEffect(() => {
-    document.title = `${title} | React.js Mastery`;
     window.scrollTo(0, 0);
     setFadeIn(false);
     requestAnimationFrame(() => setFadeIn(true));
-  }, [title, slug]);
+  }, [slug]);
 
   return (
     <div style={{ minHeight: "100vh", backgroundColor: "var(--bg)" }}>
@@ -110,7 +128,11 @@ export default function Lesson() {
             </Link>
           </div>
         ) : (
-          <MarkdownRenderer content={content} />
+          <article itemScope itemType="https://schema.org/Article">
+            <meta itemProp="name" content={title} />
+            <meta itemProp="description" content={description ?? ""} />
+            <MarkdownRenderer content={content} />
+          </article>
         )}
       </main>
 

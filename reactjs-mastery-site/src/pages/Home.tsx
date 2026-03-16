@@ -1,4 +1,5 @@
 import { useLessons } from "../hooks/useLessons";
+import { useSEO } from "../hooks/useSEO";
 import LessonCard from "../components/LessonCard";
 import ThemeToggle from "../components/ThemeToggle";
 import { useEffect, useState } from "react";
@@ -7,8 +8,14 @@ export default function Home() {
   const { lessons, loading } = useLessons();
   const [heroVisible, setHeroVisible] = useState(false);
 
+  useSEO({
+    title: "React.js Mastery: From Mid-Level to Senior and Beyond",
+    description:
+      "A comprehensive, book-quality guide to JavaScript foundations and React expertise. 11 chapters covering closures, prototypes, async patterns, design patterns, and more.",
+    path: "/",
+  });
+
   useEffect(() => {
-    document.title = "React.js Mastery";
     requestAnimationFrame(() => setHeroVisible(true));
   }, []);
 
