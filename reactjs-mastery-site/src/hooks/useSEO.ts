@@ -25,7 +25,7 @@ function setMetaTag(property: string, content: string, isName = false) {
 export function useSEO({ title, description, path = "/", type = "website" }: SEOOptions) {
   useEffect(() => {
     const fullTitle = path === "/" ? title : `${title} | ${SITE_NAME}`;
-    const desc = description ?? "A comprehensive, book-quality guide to JavaScript foundations and React expertise.";
+    const desc = description ?? "A comprehensive, book-quality guide with 20+ chapters covering JavaScript foundations, React internals, virtual DOM, Fiber architecture, concurrent rendering, and hooks.";
     const url = `${BASE_URL}${path}`;
 
     // Title

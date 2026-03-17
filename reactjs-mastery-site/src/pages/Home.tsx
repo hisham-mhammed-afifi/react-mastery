@@ -11,7 +11,7 @@ export default function Home() {
   useSEO({
     title: "React.js Mastery: From Mid-Level to Senior and Beyond",
     description:
-      "A comprehensive, book-quality guide to JavaScript foundations and React expertise. 11 chapters covering closures, prototypes, async patterns, design patterns, and more.",
+      "20+ chapters covering JavaScript foundations (closures, prototypes, event loop, design patterns) and React internals (virtual DOM, Fiber architecture, concurrent rendering, Suspense, hooks lifecycle, event system).",
     path: "/",
   });
 
