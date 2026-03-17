@@ -10,5 +10,14 @@
   "part1-ch08-higher-order-functions.md",
   "part1-ch09-modern-js.md",
   "part1-ch10-design-patterns.md",
-  "part1-ch11-problem-solving-lab.md"
+  "part1-ch11-problem-solving-lab.md",
+  "part2-ch01-problem-react-solves.md",
+  "part2-ch02-jsx.md",
+  "part2-ch03-virtual-dom.md",
+  "part2-ch04-fiber.md",
+  "part2-ch05-rendering-pipeline.md",
+  "part2-ch06-lifecycle.md",
+  "part2-ch07-rules.md",
+  "part2-ch08-concurrent.md",
+  "part2-ch09-event-system.md"
 ]

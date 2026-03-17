@@ -27,15 +27,15 @@ Run `/next` to write the next incomplete chapter. Progress is tracked automatica
 
 ## Part 2: React Mental Model & Internals
 
-- [ ] Chapter 1: The Problem React Solves (`part2-ch01-problem-react-solves.md`)
-- [ ] Chapter 2: JSX - It's Just JavaScript (`part2-ch02-jsx.md`)
-- [ ] Chapter 3: The Virtual DOM Deep Dive (`part2-ch03-virtual-dom.md`)
-- [ ] Chapter 4: React Fiber Architecture (`part2-ch04-fiber.md`)
-- [ ] Chapter 5: The Rendering Pipeline (`part2-ch05-rendering-pipeline.md`)
-- [ ] Chapter 6: Component Lifecycle Mapped to Hooks (`part2-ch06-lifecycle.md`)
-- [ ] Chapter 7: React's Rules and Why They Exist (`part2-ch07-rules.md`)
-- [ ] Chapter 8: Concurrent React (`part2-ch08-concurrent.md`)
-- [ ] Chapter 9: React's Event System (`part2-ch09-event-system.md`)
+- [x] Chapter 1: The Problem React Solves (`part2-ch01-problem-react-solves.md`)
+- [x] Chapter 2: JSX - It's Just JavaScript (`part2-ch02-jsx.md`)
+- [x] Chapter 3: The Virtual DOM Deep Dive (`part2-ch03-virtual-dom.md`)
+- [x] Chapter 4: React Fiber Architecture (`part2-ch04-fiber.md`)
+- [x] Chapter 5: The Rendering Pipeline (`part2-ch05-rendering-pipeline.md`)
+- [x] Chapter 6: Component Lifecycle Mapped to Hooks (`part2-ch06-lifecycle.md`)
+- [x] Chapter 7: React's Rules and Why They Exist (`part2-ch07-rules.md`)
+- [x] Chapter 8: Concurrent React (`part2-ch08-concurrent.md`)
+- [x] Chapter 9: React's Event System (`part2-ch09-event-system.md`)
 
 ## Part 3: React Core Patterns & Daily Tools
 
