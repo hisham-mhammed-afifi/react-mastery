@@ -11,7 +11,7 @@ export default function Home() {
   useSEO({
     title: "React.js Mastery: From Mid-Level to Senior and Beyond",
     description:
-      "20+ chapters covering JavaScript foundations (closures, prototypes, event loop, design patterns) and React internals (virtual DOM, Fiber architecture, concurrent rendering, Suspense, hooks lifecycle, event system).",
+      "40+ free chapters across 5 parts: JavaScript foundations (closures, prototypes, async), React internals (Fiber, virtual DOM, concurrent rendering), core patterns (hooks, state management, TanStack Query, forms, routing, styling, a11y), senior architecture (testing, performance, SSR, design systems), and 100 senior-level dos and don'ts.",
     path: "/",
   });
 

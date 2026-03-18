@@ -6,8 +6,8 @@
 
     <!-- Primary SEO -->
     <title>React.js Mastery: From Mid-Level to Senior and Beyond</title>
-    <meta name="description" content="A comprehensive, book-quality guide with 20+ chapters covering JavaScript foundations, React internals, virtual DOM, Fiber architecture, concurrent rendering, hooks, JSX, and the rendering pipeline. From mid-level to senior and beyond." />
-    <meta name="keywords" content="React, JavaScript, React hooks, closures, prototypes, event loop, virtual DOM, Fiber architecture, concurrent rendering, JSX, React internals, Suspense, useTransition, React patterns, senior developer, frontend development" />
+    <meta name="description" content="A free, book-quality guide with 40+ chapters across 5 parts: JavaScript foundations, React internals (Fiber, virtual DOM, concurrent rendering), core patterns (hooks, state management, data fetching, forms, routing), senior-level architecture (testing, performance, design systems, SSR), and 100 dos and don'ts. Pure JavaScript, no TypeScript." />
+    <meta name="keywords" content="React, JavaScript, React hooks, closures, prototypes, event loop, virtual DOM, Fiber architecture, concurrent rendering, JSX, React internals, Suspense, useTransition, React patterns, senior developer, frontend development, state management, Zustand, TanStack Query, React Router, React Hook Form, accessibility, performance optimization, design systems, testing, Next.js, server components" />
     <meta name="author" content="React.js Mastery" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://reactjsmastery.vercel.app/" />
@@ -16,7 +16,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://reactjsmastery.vercel.app/" />
     <meta property="og:title" content="React.js Mastery: From Mid-Level to Senior and Beyond" />
-    <meta property="og:description" content="20+ chapters covering JavaScript foundations, React mental model, virtual DOM, Fiber architecture, concurrent rendering, Suspense, hooks lifecycle, and the event system. From mid-level to senior." />
+    <meta property="og:description" content="40+ free chapters across 5 parts: JavaScript foundations, React internals (Fiber, virtual DOM, concurrent rendering), core patterns (hooks, state management, data fetching, routing, forms, styling, a11y), senior architecture (testing, performance, SSR, design systems), and 100 senior-level dos and don'ts." />
     <meta property="og:image" content="https://reactjsmastery.vercel.app/screenshot.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -26,7 +26,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="React.js Mastery: From Mid-Level to Senior and Beyond" />
-    <meta name="twitter:description" content="20+ chapters: JavaScript foundations, React internals, virtual DOM, Fiber architecture, concurrent rendering, Suspense, hooks, and more. From mid-level to senior." />
+    <meta name="twitter:description" content="40+ free chapters: JavaScript foundations, React internals (Fiber, virtual DOM), core patterns (hooks, state, data fetching, forms, routing), senior architecture (testing, performance, SSR), and 100 dos and don'ts." />
     <meta name="twitter:image" content="https://reactjsmastery.vercel.app/screenshot.png" />
 
     <!-- Theme Color -->
@@ -49,37 +49,52 @@
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "React.js Mastery: From Mid-Level to Senior and Beyond",
-      "description": "A comprehensive, book-quality guide with 20+ chapters across 2 parts: JavaScript Foundations for React Mastery (closures, prototypes, event loop, design patterns) and React Mental Model and Internals (virtual DOM, Fiber architecture, concurrent rendering, Suspense, hooks lifecycle, event system).",
+      "description": "A free, book-quality guide with 40+ chapters across 5 parts: JavaScript Foundations (closures, prototypes, event loop, design patterns), React Internals (virtual DOM, Fiber, concurrent rendering), Core Patterns (hooks, state management, data fetching, forms, routing, styling, accessibility), Senior-Level React (performance, testing, architecture, SSR, design systems, auth), and 100 Senior Dos and Don'ts.",
       "provider": {
         "@type": "Organization",
         "name": "React.js Mastery"
       },
       "educationalLevel": "Intermediate to Advanced",
       "programmingLanguage": "JavaScript",
-      "numberOfCredits": 20,
+      "numberOfCredits": 40,
       "teaches": [
-        "JavaScript Execution Context and Call Stack",
-        "Closures, Scope, and Lexical Environment",
-        "Prototypes and Inheritance",
+        "JavaScript Execution Context, Scope, and Closures",
+        "Prototypes, this Keyword, and Inheritance",
         "The Event Loop, Microtasks, and Async Patterns",
-        "Immutability and Data Manipulation",
-        "Higher-Order Functions and Functional Patterns",
+        "Immutability, Higher-Order Functions, and Functional Patterns",
         "JavaScript Design Patterns for React",
-        "Modern JavaScript Features (ES2024+)",
+        "Modern JavaScript Features (ES2024+, Proxy, Symbols, Modules)",
         "The Problem React Solves and Declarative UI",
         "JSX Compilation and React Element Objects",
-        "Virtual DOM and Diffing Algorithm",
-        "React Fiber Architecture and Priority Lanes",
-        "The Rendering Pipeline (Trigger, Render, Commit)",
+        "Virtual DOM and the O(n) Diffing Algorithm",
+        "React Fiber Architecture, Priority Lanes, and Time Slicing",
+        "The Rendering Pipeline (Trigger, Render, Reconcile, Commit)",
         "Component Lifecycle Mapped to Hooks",
         "Rules of Hooks and React's Purity Contract",
-        "Concurrent Rendering, Suspense, and Transitions",
-        "React's Synthetic Event System"
+        "Concurrent Rendering, Suspense, Transitions, and Activities",
+        "React's Synthetic Event System and Delegation",
+        "Component Composition: Compound Components, Render Props, HOCs",
+        "Hooks Deep Dive: useState, useReducer, useEffect, useRef, useMemo",
+        "State Management: Context, Zustand, Jotai, URL State",
+        "Data Fetching with TanStack Query and SWR",
+        "Forms with React Hook Form, Zod Validation, and React 19 Actions",
+        "Routing with React Router v7 and TanStack Router",
+        "Styling: Tailwind CSS, CSS Modules, CSS Variables, Framer Motion",
+        "Accessibility: Semantic HTML, ARIA, Focus Management, Screen Readers",
+        "Performance: Profiling, Virtualization, Code Splitting, React Compiler",
+        "Custom Hooks Architecture and Testing",
+        "Advanced Patterns: State Machines, Headless Components, Polymorphic Components",
+        "Error Handling Architecture and Error Boundaries",
+        "Testing with Vitest, React Testing Library, MSW, and Playwright",
+        "Project Architecture: Feature Folders, Monorepos, API Layers",
+        "Design System Architecture with Storybook",
+        "Server-Side React: SSR, SSG, ISR, React Server Components, Next.js",
+        "Authentication and Authorization Patterns"
       ],
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "online",
-        "courseWorkload": "PT80H"
+        "courseWorkload": "PT120H"
       }
     }
     </script>
