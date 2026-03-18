@@ -39,15 +39,15 @@ Run `/next` to write the next incomplete chapter. Progress is tracked automatica
 
 ## Part 3: React Core Patterns & Daily Tools
 
-- [ ] Chapter 1: Thinking in Components (`part3-ch01-thinking-in-components.md`)
-- [ ] Chapter 2: Hooks - The Complete Deep Dive (`part3-ch02-hooks-deep-dive.md`)
-- [ ] Chapter 3: Component Composition Patterns (`part3-ch03-composition.md`)
-- [ ] Chapter 4: State Management - The Decision Tree (`part3-ch04-state-management.md`)
-- [ ] Chapter 5: Data Fetching Patterns (`part3-ch05-data-fetching.md`)
-- [ ] Chapter 6: Forms - The Complete Guide (`part3-ch06-forms.md`)
-- [ ] Chapter 7: Routing (`part3-ch07-routing.md`)
-- [ ] Chapter 8: Styling Strategies (`part3-ch08-styling.md`)
-- [ ] Chapter 9: Accessibility (a11y) in React (`part3-ch09-accessibility.md`)
+- [x] Chapter 1: Thinking in Components (`part3-ch01-thinking-in-components.md`)
+- [x] Chapter 2: Hooks - The Complete Deep Dive (`part3-ch02-hooks-deep-dive.md`)
+- [x] Chapter 3: Component Composition Patterns (`part3-ch03-composition.md`)
+- [x] Chapter 4: State Management - The Decision Tree (`part3-ch04-state-management.md`)
+- [x] Chapter 5: Data Fetching Patterns (`part3-ch05-data-fetching.md`)
+- [x] Chapter 6: Forms - The Complete Guide (`part3-ch06-forms.md`)
+- [x] Chapter 7: Routing (`part3-ch07-routing.md`)
+- [x] Chapter 8: Styling Strategies (`part3-ch08-styling.md`)
+- [x] Chapter 9: Accessibility (a11y) in React (`part3-ch09-accessibility.md`)
 
 ## Part 4: Senior-Level React
 

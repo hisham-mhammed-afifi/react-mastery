@@ -132,12 +132,6 @@ npm run build
 
 Fix any errors.
 
-## Step 4: Deploy to Vercel
-```bash
-npx vercel --prod
-```
-
-If not logged in, prompt the user to authenticate first with `npx vercel login`.
 
 ## Important Notes
 
@@ -145,4 +139,4 @@ If not logged in, prompt the user to authenticate first with `npx vercel login`.
 - Keep all code clean, typed (no `any`), and well-organized.
 - Use CSS modules or Tailwind utility classes (Tailwind preferred for consistency).
 - The content folder reference is always `public/content/` inside the project. If the `/next` command or any other command references the content path, update it to `public/content/`.
-- If the build fails, diagnose and fix before deploying.
+- If the build fails, diagnose and fix.

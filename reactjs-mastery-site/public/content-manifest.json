@@ -19,5 +19,14 @@
   "part2-ch06-lifecycle.md",
   "part2-ch07-rules.md",
   "part2-ch08-concurrent.md",
-  "part2-ch09-event-system.md"
+  "part2-ch09-event-system.md",
+  "part3-ch01-thinking-in-components.md",
+  "part3-ch02-hooks-deep-dive.md",
+  "part3-ch03-composition.md",
+  "part3-ch04-state-management.md",
+  "part3-ch05-data-fetching.md",
+  "part3-ch06-forms.md",
+  "part3-ch07-routing.md",
+  "part3-ch08-styling.md",
+  "part3-ch09-accessibility.md"
 ]
