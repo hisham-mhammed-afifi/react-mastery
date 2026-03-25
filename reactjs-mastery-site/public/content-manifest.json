@@ -28,5 +28,16 @@
   "part3-ch06-forms.md",
   "part3-ch07-routing.md",
   "part3-ch08-styling.md",
-  "part3-ch09-accessibility.md"
+  "part3-ch09-accessibility.md",
+  "part4-ch01-performance.md",
+  "part4-ch02-custom-hooks.md",
+  "part4-ch03-advanced-patterns.md",
+  "part4-ch04-state-machines.md",
+  "part4-ch05-error-handling.md",
+  "part4-ch06-testing.md",
+  "part4-ch07-architecture.md",
+  "part4-ch08-design-system.md",
+  "part4-ch09-ssr.md",
+  "part4-ch10-auth.md",
+  "part4-ch11-refactoring.md"
 ]
