@@ -51,17 +51,17 @@ Run `/next` to write the next incomplete chapter. Progress is tracked automatica
 
 ## Part 4: Senior-Level React
 
-- [ ] Chapter 1: Performance - Measuring Before Optimizing (`part4-ch01-performance.md`)
-- [ ] Chapter 2: Custom Hooks Architecture (`part4-ch02-custom-hooks.md`)
-- [ ] Chapter 3: Advanced Component Patterns (`part4-ch03-advanced-patterns.md`)
-- [ ] Chapter 4: State Machines & Complex UI Logic (`part4-ch04-state-machines.md`)
-- [ ] Chapter 5: Error Handling Architecture (`part4-ch05-error-handling.md`)
-- [ ] Chapter 6: Testing Strategy (`part4-ch06-testing.md`)
-- [ ] Chapter 7: Project Architecture (`part4-ch07-architecture.md`)
-- [ ] Chapter 8: Design System Architecture (`part4-ch08-design-system.md`)
-- [ ] Chapter 9: Server-Side React (`part4-ch09-ssr.md`)
-- [ ] Chapter 10: Authentication & Authorization Patterns (`part4-ch10-auth.md`)
-- [ ] Chapter 11: Real-World Refactoring Case Studies (`part4-ch11-refactoring.md`)
+- [x] Chapter 1: Performance - Measuring Before Optimizing (`part4-ch01-performance.md`)
+- [x] Chapter 2: Custom Hooks Architecture (`part4-ch02-custom-hooks.md`)
+- [x] Chapter 3: Advanced Component Patterns (`part4-ch03-advanced-patterns.md`)
+- [x] Chapter 4: State Machines & Complex UI Logic (`part4-ch04-state-machines.md`)
+- [x] Chapter 5: Error Handling Architecture (`part4-ch05-error-handling.md`)
+- [x] Chapter 6: Testing Strategy (`part4-ch06-testing.md`)
+- [x] Chapter 7: Project Architecture (`part4-ch07-architecture.md`)
+- [x] Chapter 8: Design System Architecture (`part4-ch08-design-system.md`)
+- [x] Chapter 9: Server-Side React (`part4-ch09-ssr.md`)
+- [x] Chapter 10: Authentication & Authorization Patterns (`part4-ch10-auth.md`)
+- [x] Chapter 11: Real-World Refactoring Case Studies (`part4-ch11-refactoring.md`)
 
 ## Part 5: The Senior React Playbook
 
